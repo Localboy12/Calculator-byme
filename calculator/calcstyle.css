@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-image: url('alarm-clock-calculator-stationery-yellow-background-copy-space_127770-449.jpg');
+    background-size: 100%;
+}
+.heading {
+    text-align:center;
+    font-size:55px;
+    font-weight:800;
+    color: black;
+    padding-top: 10px;
+}
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.row {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: #f5fa00dc; /* Button background color */
+    color: #000; /* Button text color */
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size */
+}
+
+.row .input {
+    font-size: 23px;
+    margin: 0;
+    padding: 8px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #f4f41da2;
+}
